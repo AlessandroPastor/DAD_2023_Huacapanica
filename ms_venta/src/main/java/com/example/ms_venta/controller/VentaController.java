@@ -30,7 +30,8 @@ public class VentaController {
         return ResponseEntity.ok().body(ventaService.listarPorId(id).get());
     }
     @DeleteMapping("/{id}")
-    public String deleteById(@PathVariable(required = true) Integer id){ ventaService.eliminarPorId(id);
-        return "Eliminado Correctamente :3";
+    public ResponseEntity<List<Venta>>eliminar(@PathVariable(required = true) Integer id){
+        ventaService.eliminarPorId(id);
+        return ResponseEntity.ok(ventaService.listar());
     }
 }
