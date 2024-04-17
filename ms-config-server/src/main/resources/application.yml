@@ -9,12 +9,11 @@ spring:
     config:
       server:
         git:
-          uri: https://https://github.com/AlessandroPastor/DAD_2023_Huacapanica.git # ruta del repositorio git
-          searchPaths: config-data
-          #username
-          #password
-          default-label: main
-
+           uri: https://github.com/AlessandroPastor/DAD_2023_Huacapanica.git # ruta del repositorio git
+           searchPaths: config-data
+           #username
+           #password
+           default-label: main
   security:
     user:
       name: root
