@@ -4,13 +4,20 @@ server:
 spring:
   application:
     name: config-server
+
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/noetipo/DAD-2024-G1.git # ruta del repositorio git
+          uri: https://https://github.com/AlessandroPastor/DAD_2023_Huacapanica.git # ruta del repositorio git
           searchPaths: config-data
+          #username
+          #password
           default-label: main
 
+  security:
+    user:
+      name: root
+      password: 123456
 
 
