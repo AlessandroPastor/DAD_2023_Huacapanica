@@ -27,4 +27,5 @@ public class Venta {
     private String pago;
     private String estado;
     private Integer empleadoId;
+    private String forma;
 }
