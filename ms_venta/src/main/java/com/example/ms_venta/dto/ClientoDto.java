@@ -10,5 +10,4 @@ public class ClientoDto {
     private String DNI;
     private String correo;
     private String telefono;
-    private String producto;
 }
