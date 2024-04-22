@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ms-config-server" />
+        <module name="ms-cliente" />
         <module name="ms-gateway-server" />
         <module name="ms_venta" />
         <module name="ms-registry-server" />
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-cliente" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
       <module name="ms-gateway-server" options="-parameters" />
       <module name="ms-inventario" options="-parameters" />
