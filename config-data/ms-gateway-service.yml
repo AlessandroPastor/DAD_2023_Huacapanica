@@ -27,3 +27,7 @@ spring:
           uri: lb://ms-cliente-cliente
           predicates:
             - Path=/cliente/**
+        - id: ms-planilla-service
+          uri: lb://ms-planilla-service
+          predicates:
+            - Path=/planilla/**
