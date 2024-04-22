@@ -7,6 +7,7 @@ springdoc:
     enabled: true
     path: /doc/swagger-ui.html
 
+
 spring:
   jpa:
     hibernate.ddl-auto: update
