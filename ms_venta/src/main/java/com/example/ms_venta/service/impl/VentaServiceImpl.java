@@ -23,10 +23,11 @@ public class VentaServiceImpl implements VentaService {
 
     @Override
     public List<Venta> listar(){
-        return ventaRepository.findAll();
+            return ventaRepository.findAll();
     }
     @Override
     public Venta guardar(Venta venta) {
+        // Guardar el pedido en la base de datos
         return ventaRepository.save(venta);
     }
     @Override
