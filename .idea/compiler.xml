@@ -12,6 +12,7 @@
         <module name="ms-gateway-server" />
         <module name="ms_venta" />
         <module name="venta-detalle" />
+        <module name="ms-planilla" />
         <module name="ms-registry-server" />
         <module name="ms-inventario" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="ms-config-server" options="-parameters" />
       <module name="ms-gateway-server" options="-parameters" />
       <module name="ms-inventario" options="-parameters" />
+      <module name="ms-planilla" options="-parameters" />
       <module name="ms-registry-server" options="-parameters" />
       <module name="ms_venta" options="-parameters" />
       <module name="venta-detalle" options="-parameters" />
