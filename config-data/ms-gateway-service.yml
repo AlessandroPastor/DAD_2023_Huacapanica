@@ -23,3 +23,7 @@ spring:
           uri: lb://ms-inventario-service
           predicates:
             - Path=/inventario/**
+        - id: ms-cliente-cliente
+          uri: lb://ms-cliente-cliente
+          predicates:
+            - Path=/cliente/**

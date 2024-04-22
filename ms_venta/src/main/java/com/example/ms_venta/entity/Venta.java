@@ -1,9 +1,8 @@
 package com.example.ms_venta.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.example.ms_venta.dto.ClientoDto;
+import com.example.ms_venta.dto.InventarioDto;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -28,4 +27,9 @@ public class Venta {
     private String estado;
     private Integer empleadoId;
     private String todo;
+
+    @Transient
+    private ClientoDto clientoDto;
+    @Transient
+    private InventarioDto inventarioDto;
 }
