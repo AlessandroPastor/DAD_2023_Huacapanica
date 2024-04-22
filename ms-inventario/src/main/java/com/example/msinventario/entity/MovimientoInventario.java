@@ -1,5 +1,6 @@
 package com.example.msinventario.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -19,8 +20,9 @@ public class MovimientoInventario {
     private Double preciounitario;
     private Double ingreso_egreso;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "inventario_id")
+    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     private Inventario inventario;
 
 }

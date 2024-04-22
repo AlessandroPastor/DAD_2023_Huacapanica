@@ -19,3 +19,7 @@ spring:
           uri: lb://ms-vestas-service
           predicates:
             - Path=/venta/**
+        - id: ms-inventario-service
+          uri: lb://ms-inventario-service
+          predicates:
+            - Path=/inventario/**
