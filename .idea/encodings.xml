@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ms-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-inventario/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-registry-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms_venta/src/main/java" charset="UTF-8" />
   </component>
