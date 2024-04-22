@@ -11,6 +11,7 @@ import java.sql.Date;
 public class MovimientoInventario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
     private Date fecha;
     private Date hora;
     private String Cliente;
