@@ -8,10 +8,11 @@
         <option value="$PROJECT_DIR$/ms-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/ms-gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/ms-registry-server/pom.xml" />
+        <option value="$PROJECT_DIR$/venta-detalle/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
