@@ -1,5 +1,6 @@
 server:
   port: 8088
+  
 springdoc:
   api-docs:
     enabled: true
