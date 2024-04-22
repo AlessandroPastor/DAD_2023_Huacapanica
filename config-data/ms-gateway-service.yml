@@ -16,7 +16,7 @@ spring:
           enable: true
       routes:
         - id: ms-ventas-service
-          uri: lb://ms-vestas-service
+          uri: lb://ms-ventas-service
           predicates:
             - Path=/venta/**
         - id: ms-inventario-service
