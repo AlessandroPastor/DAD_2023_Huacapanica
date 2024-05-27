@@ -17,11 +17,15 @@
         <module name="ms-inventario" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-facturacion" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ms-cliente" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
+      <module name="ms-facturacion" options="-parameters" />
       <module name="ms-gateway-server" options="-parameters" />
       <module name="ms-inventario" options="-parameters" />
       <module name="ms-planilla" options="-parameters" />

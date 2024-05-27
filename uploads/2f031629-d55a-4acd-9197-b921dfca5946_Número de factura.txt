@@ -1,0 +1,17 @@
+Número de factura
+Fecha de emisión
+Fecha de realización de la operación
+Precio por unidad
+Precio total
+Tipo impositivo
+Nombre y dirección del emisor
+Nombre y dirección del receptor
+Descripción del producto o servicio
+Cantidad
+Unidad de medida
+
+
+Descuentos
+Año
+Periodicidad
+Mes
